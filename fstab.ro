@@ -1,0 +1,7 @@
+proc            /proc           proc    defaults              0       0
+/dev/mmcblk0p1  /boot           vfat    ro,defaults,noatime   0       2
+/dev/mmcblk0p2  /               ext4    ro,defaults,noatime   0       1
+mount_unionfs   /etc            fuse    defaults              0       0
+mount_unionfs   /var            fuse    defaults              0       0
+none            /tmp            tmpfs   defaults              0       0
+
