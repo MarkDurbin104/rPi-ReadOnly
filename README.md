@@ -1,4 +1,4 @@
-#A couple of scripts to make a Respberry Pi ReadOnly or ReadWrite
+#A couple of scripts to make a Raspberry Pi ReadOnly or ReadWrite
 ___
 ```
 git clone https://github.com/MarkDurbin104/rPi-ReadOnly
@@ -30,5 +30,7 @@ i.e.
 ```
 ./makerw.sh
 ```
-This is based on rPi Jessie 2015-09-24
+This has beed tried on a Pi2 running Jessie 2015-09-24
+and a Pi3 running Jessie 216-05-27
+
 change fstab.ro fstab.rw ufmountscript and lightdm.conf to suit your needs
